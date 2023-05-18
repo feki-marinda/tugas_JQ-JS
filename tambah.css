@@ -1,0 +1,42 @@
+body{
+display: block;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin-left: 500px;
+}
+form{
+    background: whitesmoke;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 400px;
+}
+form input{
+    display: block;
+    background: white;
+    margin: 15px auto;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid;
+    width: 180px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+form input[type="submit"]{
+    font-size: 16px;
+    font-weight: 100px;
+    background: #4090db;
+    color: white;
+}
+label.error{
+    font-weight: 200px;
+    display: block;
+    color: #f00;
+    font-size: 14px;
+}
+input.error {
+    border: 3px solid red;
+    font-weight: 300;
+    color: red;
+  }
